@@ -10,10 +10,10 @@ namespace WebAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ResultadosController : MiControllerBase
+    public class PacienteController : MiControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<List<TblCatPais>>> Get()
+        public async Task<ActionResult<List<TblPaciente>>> Get()
         {
             return await Mediator.Send(new Consulta.Ejecuta());
         }
