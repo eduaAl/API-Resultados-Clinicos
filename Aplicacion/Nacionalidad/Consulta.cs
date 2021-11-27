@@ -20,7 +20,7 @@ namespace Aplicacion.Nacionalidad
             }
             public async Task<List<TblCatNacionalidad>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var perfiles = await _context.TblCatNacionalidad.ToListAsync();
+                var perfiles = await _context.TblCatNacionalidads.ToListAsync();
                 return perfiles;
             }
         }

@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\jaalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\Acer Nitro 5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jaalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer Nitro 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,13 +30,14 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -43,28 +49,49 @@
         }
       },
       "frameworks": {
-        "net50": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\jaalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Acer Nitro 5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jaalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer Nitro 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +102,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -86,7 +114,8 @@
         }
       },
       "frameworks": {
-        "net50": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -121,21 +150,41 @@
               "version": "[5.0.12, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\jaalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Acer Nitro 5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jaalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer Nitro 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,10 +195,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Dominio\\Dominio.csproj"
+              "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -161,7 +211,8 @@
         }
       },
       "frameworks": {
-        "net50": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -192,21 +243,41 @@
               "version": "[5.0.12, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Seguridad\\Seguridad.csproj": {
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Seguridad\\Seguridad.csproj",
-        "packagesPath": "C:\\Users\\jaalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Seguridad\\obj\\",
+        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj",
+        "packagesPath": "C:\\Users\\Acer Nitro 5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jaalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer Nitro 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,7 +288,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -228,22 +300,43 @@
         }
       },
       "frameworks": {
-        "net50": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\jaalt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Acer Nitro 5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jaalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer Nitro 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -254,13 +347,14 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj"
               },
-              "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Seguridad\\Seguridad.csproj": {
-                "projectPath": "C:\\Users\\jaalt\\source\\repos\\API-Resultados-Clinicos\\Seguridad\\Seguridad.csproj"
+              "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Seguridad\\Seguridad.csproj"
               }
             }
           }
@@ -272,7 +366,8 @@
         }
       },
       "frameworks": {
-        "net50": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -285,12 +380,25 @@
               "version": "[5.0.12, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

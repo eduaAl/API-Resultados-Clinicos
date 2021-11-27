@@ -1,4 +1,4 @@
-﻿using Aplicacion.Pais;
+﻿using Aplicacion.TipoSangre;
 using Dominio.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;

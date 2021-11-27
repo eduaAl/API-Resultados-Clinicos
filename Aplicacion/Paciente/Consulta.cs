@@ -20,7 +20,7 @@ namespace Aplicacion.Paciente
             }
             public async Task<List<TblPaciente>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var paciente = await _context.TblPaciente.ToListAsync();
+                var paciente = await _context.TblPacientes.ToListAsync();
                 return paciente;
             }
         }

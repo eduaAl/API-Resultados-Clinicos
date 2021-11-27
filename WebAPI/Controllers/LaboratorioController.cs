@@ -1,4 +1,4 @@
-﻿using Aplicacion.Pais;
+﻿using Aplicacion.Laboratorio;
 using Dominio.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,7 +13,7 @@ namespace WebAPI.Controllers
     public class LaboratorioController : MiControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<List<TblCatAreasLabServicios>>> Get()
+        public async Task<ActionResult<List<TblCatAreasLabServicio>>> Get()
         {
             return await Mediator.Send(new Consulta.Ejecuta());
         }

@@ -20,7 +20,7 @@ namespace Aplicacion.Medico
             }
             public async Task<List<TblMedico>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var medico = await _context.TblMedico.ToListAsync();
+                var medico = await _context.TblMedicos.ToListAsync();
                 return medico;
             }
         }

@@ -11,7 +11,7 @@ namespace Aplicacion.OrdenDetalle
     {
         public class Ejecuta : IRequest<List<TblOrdenesDetalle>> { }
 
-        public class Manejador : IRequestHandler<Ejecuta, List<TblOrdenesDetalles>>
+        public class Manejador : IRequestHandler<Ejecuta, List<TblOrdenesDetalle>>
         {
             private readonly netLisContext _context;
             public Manejador(netLisContext context)
@@ -20,7 +20,7 @@ namespace Aplicacion.OrdenDetalle
             }
             public async Task<List<TblOrdenesDetalle>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var ordenes = await _context.TblOrdenesDetalle.ToListAsync();
+                var ordenes = await _context.TblOrdenesDetalles.ToListAsync();
                 return ordenes;
             }
         }

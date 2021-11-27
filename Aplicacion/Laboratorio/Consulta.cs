@@ -20,7 +20,7 @@ namespace Aplicacion.Laboratorio
             }
             public async Task<List<TblCatAreasLabServicio>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var laboratorio = await _context.TblCatAreasLabServicio.ToListAsync();
+                var laboratorio = await _context.TblCatAreasLabServicios.ToListAsync();
                 return laboratorio;
             }
         }

@@ -1,4 +1,4 @@
-﻿using Aplicacion.Pais;
+﻿using Aplicacion.Nacionalidad;
 using Dominio.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;

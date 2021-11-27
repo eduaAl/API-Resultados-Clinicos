@@ -20,7 +20,7 @@ namespace Aplicacion.TipoResultado
             }
             public async Task<List<TblCatTipoResultado>> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var tipo = await _context.TblCatTipoResultado.ToListAsync();
+                var tipo = await _context.TblCatTipoResultados.ToListAsync();
                 return tipo;
             }
         }
