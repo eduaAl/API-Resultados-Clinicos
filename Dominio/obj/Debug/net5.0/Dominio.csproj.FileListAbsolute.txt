@@ -27,3 +27,4 @@ C:\Users\Acer Nitro 5\source\repos\netLis\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\Acer Nitro 5\source\repos\netLis\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\Acer Nitro 5\source\repos\netLis\Dominio\obj\Debug\net5.0\Dominio.pdb
 C:\Users\Acer Nitro 5\source\repos\netLis\Dominio\obj\Debug\net5.0\Dominio.genruntimeconfig.cache
+C:\Users\Acer Nitro 5\source\repos\netLis\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache

@@ -21,3 +21,4 @@ C:\Users\Acer Nitro 5\source\repos\netLis\Seguridad\obj\Debug\net5.0\Seguridad.c
 C:\Users\Acer Nitro 5\source\repos\netLis\Seguridad\obj\Debug\net5.0\Seguridad.dll
 C:\Users\Acer Nitro 5\source\repos\netLis\Seguridad\obj\Debug\net5.0\ref\Seguridad.dll
 C:\Users\Acer Nitro 5\source\repos\netLis\Seguridad\obj\Debug\net5.0\Seguridad.pdb
+C:\Users\Acer Nitro 5\source\repos\netLis\Seguridad\obj\Debug\net5.0\Seguridad.csproj.AssemblyReference.cache
