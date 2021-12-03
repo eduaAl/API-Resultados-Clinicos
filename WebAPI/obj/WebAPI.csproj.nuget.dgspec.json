@@ -52,9 +52,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -290,7 +298,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\Acer Nitro 5\\source\\repos\\netLis\\Aplicacion\\Aplicacion.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -302,6 +314,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.14.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -371,7 +393,7 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.3.4, )"
+              "version": "[10.3.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -386,6 +408,14 @@
             "ServiceStack": {
               "target": "Package",
               "version": "[5.13.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.14.1, )"
+            },
+            "System.IdentityModel.Tokens.ValidatingIssuerNameRegistry": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [
